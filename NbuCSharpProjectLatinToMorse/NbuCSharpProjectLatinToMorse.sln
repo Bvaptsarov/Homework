@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatinToMorse", "ConsoleApplication1\LatinToMorse.csproj", "{F4F401C6-4422-4FA6-9FBD-C60C90EE041F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLatinToMorseApp", "ConsoleApplication2\TestLatinToMorseApp.csproj", "{D1A8BA22-DED7-4A4E-9FA3-AC35C52B1F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteMeSpapRef", "DeleteMeSpapRef\DeleteMeSpapRef.csproj", "{067FEDDE-7DB2-4E0E-BDA9-45AEFADA85E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F401C6-4422-4FA6-9FBD-C60C90EE041F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F401C6-4422-4FA6-9FBD-C60C90EE041F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F401C6-4422-4FA6-9FBD-C60C90EE041F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F401C6-4422-4FA6-9FBD-C60C90EE041F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A8BA22-DED7-4A4E-9FA3-AC35C52B1F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A8BA22-DED7-4A4E-9FA3-AC35C52B1F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A8BA22-DED7-4A4E-9FA3-AC35C52B1F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A8BA22-DED7-4A4E-9FA3-AC35C52B1F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067FEDDE-7DB2-4E0E-BDA9-45AEFADA85E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067FEDDE-7DB2-4E0E-BDA9-45AEFADA85E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067FEDDE-7DB2-4E0E-BDA9-45AEFADA85E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067FEDDE-7DB2-4E0E-BDA9-45AEFADA85E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
