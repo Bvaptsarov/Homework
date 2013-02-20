@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="d2090300-f232-43c0-b571-2ac8b3c7eefa">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>F:\Workspace\Workspace C#\09.OOP\PhoneDevice\Gsm.cs</Path>
+        <ProjectFullName>F:\Workspace\Workspace C#\09.OOP\PhoneDevice\PhoneDevice.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>25</Column>
+          <Text>Field &lt;/C&gt;newBattery&lt;//C&gt; can be made readonly</Text>
+          <Line>11</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>
