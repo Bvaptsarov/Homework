@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PointStruct.Distance3D">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distance3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointStruct.Path">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAEAAAECAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Path.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointStruct.PathStorage">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAA=</HashCode>
+      <FileName>PathStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointStruct.TestPoints3DLoadAndSave">
+    <Position X="7.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TestPoints3DLoadAndSave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PointStruct.Point3D">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAQYAE=</HashCode>
+      <FileName>Point3D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
