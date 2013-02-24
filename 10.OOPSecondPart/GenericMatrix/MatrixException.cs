@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace GenericMatrix
 {
-    public class MatrixException : ApplicationException
+    public class MatrixException : SystemException
     {
-        public MatrixException(string str) { }
+        public MatrixException() { }
+        public MatrixException(string message): base(message){}
+        public MatrixException(string message,Exception innerException): base(message, innerException){}
     }
 }
