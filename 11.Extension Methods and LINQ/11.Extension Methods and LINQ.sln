@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{992A3393-C03B-439E-90FC-872380B4725A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaLINQ", "LINQ\LambdaLINQ.csproj", "{229D5F91-AD45-481D-BB9F-C119CA87D385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerDelegate", "TimerDelegate\TimerDelegate.csproj", "{B8BD0E11-5244-4DEC-AAAC-BAC889A0E2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerDelegateWithEvents", "TimerDelegateWithEvents\TimerDelegateWithEvents.csproj", "{4C6DD827-46F1-4944-BF67-B76AF852FF76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992A3393-C03B-439E-90FC-872380B4725A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992A3393-C03B-439E-90FC-872380B4725A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992A3393-C03B-439E-90FC-872380B4725A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992A3393-C03B-439E-90FC-872380B4725A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229D5F91-AD45-481D-BB9F-C119CA87D385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229D5F91-AD45-481D-BB9F-C119CA87D385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229D5F91-AD45-481D-BB9F-C119CA87D385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229D5F91-AD45-481D-BB9F-C119CA87D385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BD0E11-5244-4DEC-AAAC-BAC889A0E2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BD0E11-5244-4DEC-AAAC-BAC889A0E2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BD0E11-5244-4DEC-AAAC-BAC889A0E2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BD0E11-5244-4DEC-AAAC-BAC889A0E2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6DD827-46F1-4944-BF67-B76AF852FF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6DD827-46F1-4944-BF67-B76AF852FF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6DD827-46F1-4944-BF67-B76AF852FF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6DD827-46F1-4944-BF67-B76AF852FF76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
