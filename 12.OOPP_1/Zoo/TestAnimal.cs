@@ -22,6 +22,10 @@ namespace Zoo
 
             Console.WriteLine(averageAge);
 
+            foreach (var item in array)
+            {
+                Console.WriteLine("Animal type : {0}\n\t{1}",item.GetType().ToString().Substring(4,item.GetType().ToString().Length-4),item.ToString());
+            }
         }
     }
 }

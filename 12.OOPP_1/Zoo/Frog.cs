@@ -13,5 +13,10 @@ namespace Zoo
         {
             return "Kwak";
         }
+
+        public override string ToString()
+        {
+            return String.Format("{0} - {1}", base.ToString(), MakeSound());
+        }
     }
 }
