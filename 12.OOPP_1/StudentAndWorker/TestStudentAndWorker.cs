@@ -62,7 +62,7 @@ namespace StudentAndWorker
 
             Console.WriteLine("\nMergin both students and worker and sorting them via first and last name : \n");
 
-            List<Human> merge = new List<Human>(students.Count() + workers.Count());
+            List<Human> merge = new List<Human>();
             merge.AddRange(students);
             merge.AddRange(workers);
             
