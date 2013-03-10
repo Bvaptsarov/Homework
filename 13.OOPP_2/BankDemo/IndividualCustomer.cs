@@ -1,0 +1,18 @@
+﻿using System;
+using System.Linq;
+
+namespace BankDemo
+{
+    public class IndividualCustomer : Customer
+    {
+        public IndividualCustomer(string firstName, string middleName, string lastName, string adress, string phoneNumber)
+            : base(firstName, middleName, lastName, adress, phoneNumber)
+        {
+        }
+
+        public override string ToString()
+        {
+            return String.Format("Individual Customer : \n{0}", base.ToString());
+        }
+    }
+}
