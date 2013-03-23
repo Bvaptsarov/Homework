@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="c7046a86-49fa-4f6c-b8e7-c8a178cc6da6">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings Version="2">
+      <FilePath>
+        <FileRelativePath>PersonTask/Person.cs</FileRelativePath>
+        <ProjectRelativePath>PersonTask/PersonTask.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>4000873102564749879</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>
