@@ -13,8 +13,8 @@ namespace MinesDemo
         private const int ColSize = 10;
         #endregion
 
-        private static readonly Random rnd = new Random();
-        private static readonly List<Point> playersList = new List<Point>(NumberOfPlayers);
+        private static readonly Random randomNumber = new Random();
+        private static readonly List<PlayerScore> playersList = new List<PlayerScore>(NumberOfPlayers);
 
         static void Main(string[] args)
         {
@@ -113,7 +113,7 @@ namespace MinesDemo
                     Console.Write("\nYou died with {0} points. Please input a nickname : ", currentScore);
 
                     string currentNickName = Console.ReadLine();
-                    Point t = new Point(currentNickName, currentScore);
+                    PlayerScore t = new PlayerScore(currentNickName, currentScore);
 
                     if (playersList.Count < NumberOfPlayers)
                     {
@@ -132,9 +132,9 @@ namespace MinesDemo
                         }
                     }
 
-                    playersList.Sort((Point firstPlayer, Point secondPlayer) =>
-                        secondPlayer.NickName.CompareTo(firstPlayer.NickName));
-                    playersList.Sort((Point firstPlayer, Point secondPlayer) =>
+                    playersList.Sort((PlayerScore firstPlayer, PlayerScore secondPlayer) =>
+                        secondPlayer.Nickname.CompareTo(firstPlayer.Nickname));
+                    playersList.Sort((PlayerScore firstPlayer, PlayerScore secondPlayer) =>
                         secondPlayer.Score.CompareTo(firstPlayer.Score));
 
                     CreateScoreField(playersList);
@@ -154,7 +154,7 @@ namespace MinesDemo
                     Console.WriteLine("Please input a nickname : ");
 
                     string currentNickName = Console.ReadLine();
-                    Point currentPoints = new Point(currentNickName, currentScore);
+                    PlayerScore currentPoints = new PlayerScore(currentNickName, currentScore);
 
                     playersList.Add(currentPoints);
                     CreateScoreField(playersList);
@@ -170,7 +170,7 @@ namespace MinesDemo
             Console.Read();
         }
 
-        private static void CreateScoreField(List<Point> points)
+        private static void CreateScoreField(List<PlayerScore> points)
         {
             Console.WriteLine("\nScore board:");
             if (points.Count > 0)
@@ -178,7 +178,7 @@ namespace MinesDemo
                 for (int i = 0; i < points.Count; i++)
                 {
                     Console.WriteLine("{0}. {1} --> {2} points",
-                        i + 1, points[i].NickName, points[i].Score);
+                        i + 1, points[i].Nickname, points[i].Score);
                 }
                 Console.WriteLine();
             }
@@ -190,7 +190,7 @@ namespace MinesDemo
 
         private static void CreateSurrondingEnvironment(char[,] gameField, char[,] bombField, int rowAt, int colAt)
         {
-            char numberOfBombs = ReturnSurroundingBombCount(bombField, rowAt, colAt);
+            char numberOfBombs = GetSurroundingBombCount(bombField, rowAt, colAt);
             bombField[rowAt, colAt] = numberOfBombs;
             gameField[rowAt, colAt] = numberOfBombs;
         }
@@ -252,7 +252,7 @@ namespace MinesDemo
 
             while (bombMap.Count < 15)
             {               
-                int location = rnd.Next(50);
+                int location = randomNumber.Next(50);
                 if (!bombMap.Contains(location))
                 {
                     bombMap.Add(location);
@@ -280,7 +280,7 @@ namespace MinesDemo
             return gameField;
         }
 
-        private static char ReturnSurroundingBombCount(char[,] gameField, int currRow, int currCol)
+        private static char GetSurroundingBombCount(char[,] gameField, int currRow, int currCol)
         {
             int bombCount = 0;
 
