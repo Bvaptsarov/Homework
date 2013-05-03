@@ -1,0 +1,9 @@
+In OrbitsCalculator.cs, there is private method - EarthRotation() on line 94, which causes the slow performance due to unnecessary for iteration, which not only is needless, but also having a decimal to double convertion.
+
+Solution -> deleting the for iteration, leaving the method in the following condition :
+
+ private void EarthRotation()
+        {
+	    EarthRotationAngle = 360 * Days / EarthRotationPeriod;
+            Update("EarthRotationAngle");
+        }
